@@ -124,7 +124,7 @@ async def join_channel(event):
 
     try:
 
-        await sython1(JoinChannelRequest("@rxx_x"))
+        await sython1(JoinChannelRequest("@ujijs"))
 
     except BaseException:
 
@@ -190,7 +190,7 @@ async def OwnerStart(event):
 
         order = await event.reply("""**
 
-⚝ مرحبا بك في اوامر سورس السيد @syntral
+💞 مرحبا بك في اوامر سورس السيد [ @syntral ]
 
  
 
@@ -232,7 +232,7 @@ async def OwnerStart(event):
 
         order = await event.reply("""**
 
-⚝ قـائمة جميع اوامر التجميع التي تحتاجها
+☻ قـائمة جميع اوامر التجميع التي تحتاجها لسورس السيد 
 
 
 
@@ -524,7 +524,7 @@ async def _(event):
 
 ࿓  ᑕᕼᗩᑎᑎᗴᒪ - @uJiJs
 
-࿓  ᐯᗴᖇՏIOᑎ - ¹
+࿓  ᐯᗴᖇՏIOᑎ - @syntral
 
 ࿓  ᗪᗴᐯ¹ - @S_i_D
 
@@ -1504,7 +1504,7 @@ async def OwnerStart(event):
 
                 channel_entity = await sython1.get_entity(pot)
 
-                await sython1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة سايثون**')
+                await sython1.send_message(pot, '**جاري بدأ عملية التجميع بواسطة سورس السيد سنترال**')
 
                 await sython1.send_message(pot, '/start')
 
